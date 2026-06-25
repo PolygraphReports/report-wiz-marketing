@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const APP_URL = 'https://app.polygraphreports.com'
+const APP_REGISTER_URL = 'https://app.polygraphreports.com/register'
 
 export default function Header() {
   return (
@@ -49,7 +50,7 @@ export default function Header() {
             Sign in
           </a>
           <a
-            href={APP_URL}
+            href={APP_REGISTER_URL}
             className="inline-flex items-center rounded-full bg-ploy-accent-primary px-5 py-2.5 text-sm font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-accent-primary/90"
           >
             Start free

@@ -28,19 +28,19 @@ const audiences = [
   {
     image: '/images/audience-law-enforcement.png',
     alt: 'Law enforcement investigative interview room',
-    title: 'Law enforcement',
+    title: 'Law Enforcement',
     body: 'Investigators can turn recorded interviews into court-ready narrative reports — minimizing note-taking so you stay focused on the subject.',
   },
   {
     image: '/images/audience-therapy.png',
     alt: 'Private therapy office with two chairs',
-    title: 'Therapists & clinicians',
+    title: 'Therapists & Clinicians',
     body: 'Capture sessions and intake conversations as structured clinical documentation, so more of your time stays with the client and less goes to write-ups.',
   },
   {
     image: '/images/audience-consulting.png',
     alt: 'Consulting meeting with laptop and documents',
-    title: 'Investigators & consultants',
+    title: 'Investigators & Consultants',
     body: 'Translate interviews, assessments, and stakeholder conversations into consistent, branded deliverables your clients can rely on with a simple, controlled workflow.',
   },
 ]
