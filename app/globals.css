@@ -1,3 +1,136 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.article-content {
+  max-width: 800px;
+  line-height: 1.8;
+}
+
+.article-content h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.article-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #1d4ed8;
+}
+
+.article-content p {
+  margin-bottom: 1.25rem;
+}
+
+.article-content ul {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.article-content li {
+  margin-bottom: 0.75rem;
+}
+
+.article-content img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.article-content img.article-image {
+  width: auto;
+  height: auto;
+}
+
+.article-image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+.author-image {
+  width: 200px !important;
+  max-width: 200px !important;
+  margin: 0 !important;
+}
+
+.numbered-list {
+  counter-reset: step-counter;
+  list-style: none;
+  padding-left: 0;
+}
+
+.numbered-list li {
+  counter-increment: step-counter;
+  margin-bottom: 1.5rem;
+  padding-left: 3rem;
+  position: relative;
+}
+
+.numbered-list li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.highlight-box {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  margin: 2rem 0;
+}
+
+.ethics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.ethics-card {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.ethics-card strong {
+  display: block;
+  color: #181d24;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.ethics-card span {
+  color: #050606;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .ethics-grid {
+    grid-template-columns: 1fr;
+  }
+}

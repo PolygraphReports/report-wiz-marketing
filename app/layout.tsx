@@ -1,13 +1,33 @@
 import type { Metadata } from 'next'
+import { Inter, Manrope } from 'next/font/google'
 import './globals.css'
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-inter',
+})
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['600', '700', '800'],
+  variable: '--font-manrope',
+})
 
 export const metadata: Metadata = {
   title: {
-    default: 'Report Wiz - Professional Reports from Recordings & Documents',
+    default: 'Report Wiz — Turn Sensitive Interviews Into Standardized Reports',
     template: '%s | Report Wiz',
   },
   description:
-    'Turn recordings and documents into professional reports in minutes.',
+    'Report Wiz transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security for law enforcement, therapists, and consultants.',
+  openGraph: {
+    title: 'Report Wiz — Turn Sensitive Interviews Into Standardized Reports',
+    description:
+      'Report Wiz transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security.',
+    type: 'website',
+    siteName: 'Report Wiz',
+  },
 }
 
 export default function RootLayout({
@@ -16,8 +36,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-white">{children}</body>
+    <html lang="en" className={`${inter.variable} ${manrope.variable}`}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className="min-h-screen bg-ploy-background-primary font-sans text-ploy-text-primary antialiased">
+        {children}
+      </body>
     </html>
   )
 }
