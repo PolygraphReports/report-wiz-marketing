@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import LogoIcon from '@/components/LogoIcon'
 
 export default function Footer() {
   return (
@@ -7,8 +7,8 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-7xl px-6 py-16 lg:px-8">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-sm">
-            <div className="flex items-center gap-2.5">
-              <Image src="/images/logo.png" alt="Report Wiz" width={36} height={36} className="h-9 w-auto" />
+            <div className="flex items-center gap-2.5 text-ploy-text-inverse">
+              <LogoIcon className="h-9 w-auto" />
               <span className="font-heading text-xl font-extrabold tracking-tight">Report Wiz</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-ploy-text-inverse-secondary">

@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import LogoIcon from '@/components/LogoIcon'
 
 const APP_URL = 'https://app.polygraphreports.com'
 const APP_REGISTER_URL = 'https://app.polygraphreports.com/register'
@@ -8,8 +8,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ploy-border-primary bg-white">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-6 py-4 lg:px-8">
-        <Link href="/" className="flex items-center gap-2.5">
-          <Image src="/images/logo.png" alt="Report Wiz" width={36} height={36} className="h-9 w-auto" />
+        <Link href="/" className="flex items-center gap-2.5 text-ploy-text-primary">
+          <LogoIcon className="h-9 w-auto" />
           <span className="font-heading text-xl font-extrabold tracking-tight text-ploy-text-primary">
             Report Wiz
           </span>
