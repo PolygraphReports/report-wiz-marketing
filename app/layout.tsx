@@ -20,11 +20,11 @@ export const metadata: Metadata = {
     template: '%s | Report Wiz',
   },
   description:
-    'Report Wiz transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security for law enforcement, therapists, and consultants.',
+    'Report Wiz transforms sensitive recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, law enforcement-grade security for law everyone.',
   openGraph: {
     title: 'Report Wiz — Turn Sensitive Interviews Into Standardized Reports',
     description:
-      'Report Wiz transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security.',
+      'Report Wiz transforms sensitive recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, law enforcement-grade security for everyone.',
     type: 'website',
     siteName: 'Report Wiz',
   },
