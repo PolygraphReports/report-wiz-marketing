@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const APP_REGISTER_URL = 'https://app.polygraphreports.com/register'
+const APP_REGISTER_URL = 'https://app.reportwiz.ai/register'
 const CONTACT_SALES_URL = 'https://forms.gle/3fhDKpuQaiHJQh7p8'
 
 const pricing = {

@@ -12,16 +12,17 @@ import {
   ShieldCheckIcon,
 } from '@/components/icons'
 
-const APP_URL = 'https://app.polygraphreports.com'
-const APP_REGISTER_URL = 'https://app.polygraphreports.com/register'
+const APP_URL = 'https://app.reportwiz.ai'
+const APP_REGISTER_URL = 'https://app.reportwiz.ai/register'
 const TRUST_CENTER_URL = 'https://trust.polygraphreports.com'
-const DEMO_MAILTO = 'mailto:sales@polygraphreports.com?subject=Report%20Wiz%20Demo'
+const DEMO_URL =
+  'https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3aKqTQdxBsjh7pmXxU4IKmDhkVa5LZ5qPk6qq6IJcfjvBfyK1H1KzKjJEQop2dg4Cu7_T91vae?gv=true'
 
 const stats = [
-  { value: '80%+', label: 'Less time writing reports' },
-  { value: 'Minutes', label: 'From recording to first draft' },
-  { value: 'Transcript', label: 'Included with every report' },
-  { value: 'CJIS ready', label: 'Built for law enforcement' },
+  { value: '80%+', label: 'Less time spent writing reports or notes without losing control' },
+  { value: 'CJIS ready', label: 'Built for law enforcement but available for everyone' },
+  { value: 'Private', label: 'Your data is never sold, shared, or used to train AI models' },
+  { value: 'Transcript', label: 'Every report includes the transcript by default' },
 ]
 
 const audiences = [
@@ -153,11 +154,11 @@ export default function Home() {
                 Secure AI reporting for sensitive interviews
               </p>
               <h1 className="mt-5 font-heading text-5xl font-extrabold leading-[1.02] tracking-tight text-balance text-ploy-text-primary md:text-6xl">
-                Turn sensitive interviews into standardized reports
+                Turn sensitive conversations into standardized reports
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-ploy-text-secondary">
-                Report Wiz transforms your interview recordings into professional, fully customizable
-                reports in minutes with enterprise-grade security and the transcript included by default.
+                Report Wiz transforms your recordings into professional, fully customizable
+                reports in minutes with law enforcement-grade security and the transcript included by default.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
@@ -168,7 +169,9 @@ export default function Home() {
                   <ArrowRightIcon className="h-4 w-4" />
                 </a>
                 <a
-                  href={DEMO_MAILTO}
+                  href={DEMO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-full border border-ploy-border-primary bg-ploy-background-primary px-7 py-3.5 text-base font-semibold text-ploy-text-primary transition-colors hover:bg-ploy-neutral-secondary"
                 >
                   Book a demo
@@ -209,7 +212,7 @@ export default function Home() {
                 <div className="font-heading text-3xl font-extrabold tracking-tight text-ploy-text-primary">
                   {stat.value}
                 </div>
-                <div className="mt-1.5 text-sm text-ploy-text-secondary">{stat.label}</div>
+                <div className="mt-1.5 text-md text-ploy-text-secondary">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -416,7 +419,9 @@ export default function Home() {
                 <ArrowRightIcon className="h-4 w-4" />
               </a>
               <a
-                href={DEMO_MAILTO}
+                href={DEMO_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-ploy-text-on-accent-primary/40 px-7 py-3.5 text-base font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-text-on-accent-primary/10"
               >
                 Book a demo

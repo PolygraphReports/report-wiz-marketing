@@ -6,15 +6,18 @@ export default function Footer() {
     <footer className="bg-ploy-neutral-inverse text-ploy-text-inverse">
       <div className="mx-auto w-full max-w-7xl px-6 py-16 lg:px-8">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
-          <div className="max-w-sm">
-            <div className="flex items-center gap-2.5 text-ploy-text-inverse">
-              <LogoIcon className="h-9 w-auto" />
-              <span className="font-heading text-xl font-extrabold tracking-tight">Report Wiz</span>
+          <div className="max-w-full">
+            <div className="flex items-start gap-4 text-ploy-text-inverse">
+              <LogoIcon className="h-[7rem] w-auto shrink-0" />
+              <div>
+                <span className="font-heading text-[2.5rem] font-extrabold leading-none tracking-tight">
+                  Report Wiz
+                </span>
+                <p className="mt-4 text-lg leading-relaxed text-ploy-text-inverse-secondary">
+                  Turn any recording into a standard-for-you report with law enforcement-grade security and the transcript included by default.
+                </p>
+              </div>
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-ploy-text-inverse-secondary">
-              Turn any sensitive interview into a standardized, fully editable report — with the
-              verbatim transcript included and security built for the most scrutinized work.
-            </p>
           </div>
 
           <div className="grid grow grid-cols-2 gap-8 sm:grid-cols-3 md:max-w-xl">
@@ -61,7 +64,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://app.polygraphreports.com/terms"
+                    href="https://app.reportwiz.ai/terms"
                     className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
                     target="_blank"
                     rel="noopener noreferrer"
