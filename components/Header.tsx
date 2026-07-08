@@ -8,11 +8,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-ploy-border-primary bg-white">
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between gap-6 px-6 py-4 lg:px-8">
-        <Link href="/" className="flex items-center gap-2.5 text-ploy-text-primary">
+        <Link href="/" className="flex items-center">
           <LogoIcon className="h-9 w-auto" />
-          <span className="font-heading text-xl font-extrabold tracking-tight text-ploy-text-primary">
-            Report Wiz
-          </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

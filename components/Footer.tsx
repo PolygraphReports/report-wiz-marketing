@@ -7,10 +7,7 @@ export default function Footer() {
       <div className="mx-auto w-full max-w-7xl px-6 py-16 lg:px-8">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-sm">
-            <div className="flex items-center gap-2.5 text-ploy-text-inverse">
-              <LogoIcon className="h-9 w-auto" />
-              <span className="font-heading text-xl font-extrabold tracking-tight">Report Wiz</span>
-            </div>
+            <LogoIcon className="h-9 w-auto" variant="dark" />
             <p className="mt-4 text-sm leading-relaxed text-ploy-text-inverse-secondary">
               Turn any sensitive interview into a standardized, fully editable report — with the
               verbatim transcript included and security built for the most scrutinized work.
