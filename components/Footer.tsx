@@ -9,8 +9,7 @@ export default function Footer() {
           <div className="max-w-sm">
             <LogoIcon className="h-9 w-auto" variant="dark" />
             <p className="mt-4 text-sm leading-relaxed text-ploy-text-inverse-secondary">
-              Turn any sensitive interview into a standardized, fully editable report — with the
-              verbatim transcript included and security built for the most scrutinized work.
+              Transforms your sensitive conversations into professional, fully customizable reports in minutes with the transcription included and law enforcement-grade security by default.
             </p>
           </div>
 
@@ -83,16 +82,8 @@ export default function Footer() {
               <h3 className="text-sm font-semibold text-ploy-text-inverse">Resources</h3>
               <ul className="mt-4 space-y-3">
                 <li>
-                  <Link
-                    href="/ai-responsible-use-polygraph"
-                    className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
-                  >
-                    Responsible AI for Polygraph Examiners
-                  </Link>
-                </li>
-                <li>
                   <a
-                    href="https://www.linkedin.com/company/polygraphreports/"
+                    href="https://www.linkedin.com/company/reportwiz-ai/"
                     className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -106,7 +97,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-ploy-border-inverse pt-8 text-sm text-ploy-text-inverse-secondary">
-          &copy; {new Date().getFullYear()} Report Wiz. All rights reserved.
+          &copy; {new Date().getFullYear()} Polygraph Reports, Inc. All rights reserved.
         </div>
       </div>
     </footer>

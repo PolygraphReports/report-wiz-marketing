@@ -18,10 +18,10 @@ const TRUST_CENTER_URL = 'https://trust.polygraphreports.com'
 const DEMO_URL = 'https://calendar.app.google/GsmA2seoyzP6sjsK7'
 
 const stats = [
-  { value: '80%+', label: 'Less time writing reports' },
-  { value: 'Minutes', label: 'From recording to first draft' },
-  { value: 'Transcript', label: 'Included with every report' },
-  { value: 'CJIS ready', label: 'Built for law enforcement' },
+  { value: '80%+', label: 'Less time spent writing reports or notes without losing control' },
+  { value: 'CJIS ready', label: 'Built to law enforcement standards but made available for everyone' },
+  { value: 'Private', label: 'Your data is never sold, shared, or used to train AI models' },
+  { value: 'Transcript', label: 'Every report includes the transcript by default for no extra cost' },
 ]
 
 const audiences = [
@@ -150,14 +150,13 @@ export default function Home() {
           <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_1fr]">
             <div>
               <p className="text-sm font-semibold text-ploy-accent-primary">
-                Secure AI reporting for sensitive interviews
+                Secure & privacy focused AI reporting
               </p>
               <h1 className="mt-5 font-heading text-5xl font-extrabold leading-[1.02] tracking-tight text-balance text-ploy-text-primary md:text-6xl">
-                Turn sensitive interviews into standardized reports
+                Turn sensitive conversations into standardized reports
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-ploy-text-secondary">
-                Report Wiz transforms your interview recordings into professional, fully customizable
-                reports in minutes with enterprise-grade security and the transcript included by default.
+                Report Wiz transforms your sensitive conversations into professional, fully customizable reports in minutes with the transcription included and law enforcement-grade security by default.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
