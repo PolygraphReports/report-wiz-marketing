@@ -16,17 +16,17 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Report Wiz — Turn Sensitive Interviews Into Standardized Reports',
-    template: '%s | Report Wiz',
+    default: 'ReportWiz.ai — Turn Sensitive Interviews Into Standardized Reports',
+    template: '%s | ReportWiz.ai',
   },
   description:
-    'Report Wiz transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security for law enforcement, therapists, and consultants.',
+    'ReportWiz.ai transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security for law enforcement, therapists, and consultants.',
   openGraph: {
-    title: 'Report Wiz — Turn Sensitive Interviews Into Standardized Reports',
+    title: 'ReportWiz.ai — Turn Sensitive Interviews Into Standardized Reports',
     description:
-      'Report Wiz transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security.',
+      'ReportWiz.ai transforms interview recordings into professional, fully customizable reports in minutes — transcript included, with CJIS-compliant, enterprise-grade security.',
     type: 'website',
-    siteName: 'Report Wiz',
+    siteName: 'ReportWiz.ai',
   },
 }
 

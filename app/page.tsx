@@ -12,10 +12,10 @@ import {
   ShieldCheckIcon,
 } from '@/components/icons'
 
-const APP_URL = 'https://app.polygraphreports.com'
-const APP_REGISTER_URL = 'https://app.polygraphreports.com/register'
+const APP_URL = 'https://app.reportwiz.ai'
+const APP_REGISTER_URL = 'https://app.reportwiz.ai/register'
 const TRUST_CENTER_URL = 'https://trust.polygraphreports.com'
-const DEMO_MAILTO = 'mailto:sales@polygraphreports.com?subject=Report%20Wiz%20Demo'
+const DEMO_URL = 'https://calendar.app.google/GsmA2seoyzP6sjsK7'
 
 const stats = [
   { value: '80%+', label: 'Less time writing reports' },
@@ -168,7 +168,9 @@ export default function Home() {
                   <ArrowRightIcon className="h-4 w-4" />
                 </a>
                 <a
-                  href={DEMO_MAILTO}
+                  href={DEMO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center rounded-full border border-ploy-border-primary bg-ploy-background-primary px-7 py-3.5 text-base font-semibold text-ploy-text-primary transition-colors hover:bg-ploy-neutral-secondary"
                 >
                   Book a demo
@@ -416,7 +418,9 @@ export default function Home() {
                 <ArrowRightIcon className="h-4 w-4" />
               </a>
               <a
-                href={DEMO_MAILTO}
+                href={DEMO_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-full border border-ploy-text-on-accent-primary/40 px-7 py-3.5 text-base font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-text-on-accent-primary/10"
               >
                 Book a demo

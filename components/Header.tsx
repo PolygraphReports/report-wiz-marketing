@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import LogoIcon from '@/components/LogoIcon'
 
-const APP_URL = 'https://app.polygraphreports.com'
-const APP_REGISTER_URL = 'https://app.polygraphreports.com/register'
+const APP_URL = 'https://app.reportwiz.ai'
+const APP_REGISTER_URL = 'https://app.reportwiz.ai/register'
 
 export default function Header() {
   return (

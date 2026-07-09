@@ -58,7 +58,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://app.polygraphreports.com/terms"
+                    href="https://app.reportwiz.ai/terms"
                     className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
                     target="_blank"
                     rel="noopener noreferrer"
