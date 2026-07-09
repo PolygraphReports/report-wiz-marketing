@@ -50,7 +50,7 @@ export default function Footer() {
               <ul className="mt-4 space-y-3">
                 <li>
                   <a
-                    href="mailto:sales@polygraphreports.com?subject=Report%20Wiz%20Interest"
+                    href="mailto:sales@reportwiz.ai?subject=Report%20Wiz%20Interest"
                     className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
                   >
                     Contact

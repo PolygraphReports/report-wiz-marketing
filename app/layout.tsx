@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Manrope } from 'next/font/google'
+import PostHogAnalytics from '@/components/PostHogAnalytics'
 import './globals.css'
 
 const inter = Inter({
@@ -42,6 +43,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-ploy-background-primary font-sans text-ploy-text-primary antialiased">
         {children}
+        <PostHogAnalytics />
       </body>
     </html>
   )
