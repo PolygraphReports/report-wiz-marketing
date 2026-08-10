@@ -161,7 +161,7 @@ export default function Home() {
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   href={APP_REGISTER_URL}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-ploy-accent-primary px-7 py-3.5 text-base font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-accent-primary/90"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-ploy-button-primary px-7 py-3.5 text-base font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-button-primary/90"
                 >
                   Start free trial
                   <ArrowRightIcon className="h-4 w-4" />

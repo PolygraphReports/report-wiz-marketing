@@ -179,7 +179,7 @@ export default function PricingSection() {
               ))}
               <a
                 href={APP_REGISTER_URL}
-                className="mt-8 block w-full rounded-full bg-ploy-accent-primary px-4 py-2.5 text-center text-sm font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-accent-primary/90"
+                className="mt-8 block w-full rounded-full bg-ploy-button-primary px-4 py-2.5 text-center text-sm font-semibold text-ploy-text-on-accent-primary transition-colors hover:bg-ploy-button-primary/90"
               >
                 Start Free Trial
               </a>

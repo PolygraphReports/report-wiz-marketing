@@ -15,6 +15,7 @@ module.exports = {
         ploy: {
           'accent-primary': 'oklch(0.548 0.207 263)',
           'accent-primary-300': 'oklch(0.75 0.12 263)',
+          'button-primary': '#001b3d',
           'background-primary': 'oklch(1 0 0)',
           'background-secondary': 'oklch(0.969 0.008 248)',
           'neutral-secondary': 'oklch(0.969 0.008 248)',
