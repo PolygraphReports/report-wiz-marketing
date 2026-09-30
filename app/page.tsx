@@ -104,7 +104,7 @@ const securityItems = [
     title: 'SOC 2 Type II',
     body: (
       <>
-        Completing the final observation phase for SOC 2 Type II — track progress in our{' '}
+        Passed our SOC 2 Type II audit. Learn more in our{' '}
         <a
           href={TRUST_CENTER_URL}
           target="_blank"
@@ -112,8 +112,7 @@ const securityItems = [
           className="underline hover:text-ploy-accent-primary transition-colors"
         >
           Trust Center
-        </a>
-        .
+        </a>.
       </>
     ),
   },
