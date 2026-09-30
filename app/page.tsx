@@ -104,7 +104,7 @@ const securityItems = [
     title: 'SOC 2 Type II',
     body: (
       <>
-        Passed our SOC 2 Type II audit. Learn more in our{' '}
+        Passed our SOC 2 Type II audit with zero exceptions. Learn more in our{' '}
         <a
           href={TRUST_CENTER_URL}
           target="_blank"

@@ -16,6 +16,7 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://reportwiz.ai'),
   title: {
     default: 'ReportWiz.ai — Turn Sensitive Interviews Into Standardized Reports',
     template: '%s | ReportWiz.ai',

@@ -82,6 +82,14 @@ export default function Footer() {
               <h3 className="text-sm font-semibold text-ploy-text-inverse">Resources</h3>
               <ul className="mt-4 space-y-3">
                 <li>
+                  <Link
+                    href="/report-wiz-vs-longeye"
+                    className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
+                  >
+                    Report Wiz vs Longeye
+                  </Link>
+                </li>
+                <li>
                   <a
                     href="https://www.linkedin.com/company/reportwiz-ai/"
                     className="text-sm text-ploy-text-inverse-secondary transition-colors hover:text-ploy-text-inverse"
