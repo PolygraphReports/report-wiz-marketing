@@ -8,39 +8,39 @@ const CONTACT_SALES_URL = 'https://forms.gle/3fhDKpuQaiHJQh7p8'
 const pricing = {
   basic: {
     monthly: {
-      price: '$69',
+      price: '$79',
       period: '/month',
       reports: '20 reports per month',
-      perReport: ' ($3.45 per report)',
+      perReport: ' ($3.95 per report)',
     },
     annual: {
-      price: '$699',
+      price: '$899',
       period: '/year',
       reports: '240 reports per year',
-      perReport: ' ($2.91 per report)',
+      perReport: ' ($3.75 per report)',
     },
   },
   pro: {
     monthly: {
-      price: '$149',
+      price: '$189',
       period: '/month',
       reports: '50 reports per month',
-      perReport: ' ($2.98 per report)',
+      perReport: ' ($3.78 per report)',
     },
     annual: {
-      price: '$1,399',
+      price: '$2,199',
       period: '/year',
       reports: '600 reports per year',
-      perReport: ' ($2.33 per report)',
+      perReport: ' ($3.67 per report)',
     },
   },
 }
 
 const creditPacks = [
   { credits: '10 credits', price: '$49', perReport: '$4.90 per report' },
-  { credits: '50 credits', price: '$229', perReport: '$4.58 per report' },
-  { credits: '100 credits', price: '$399', perReport: '$3.99 per report' },
-  { credits: '1,000 credits', price: '$2,199', perReport: '$2.20 per report' },
+  { credits: '50 credits', price: '$245', perReport: '$4.90 per report' },
+  { credits: '100 credits', price: '$449', perReport: '$4.49 per report' },
+  { credits: '1,000 credits', price: '$3,499', perReport: '$3.50 per report' },
 ]
 
 function CheckIcon() {
